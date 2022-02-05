@@ -1,0 +1,30 @@
+.container{
+    width : 90vw;
+    height: 260px;
+}
+
+.product-title {
+    margin: 7px 0 0 16px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+.line {
+    width: 970px;
+    border-bottom: 2px solid rgba(203, 203, 203, 0.5);
+    margin : 4px 0 0 14px;
+}
+
+.product-list-container {
+    height: 190px;
+    width: 984px;
+    margin-top: 12px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    /* overflow-y: hidden; */
+}

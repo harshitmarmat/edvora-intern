@@ -1,0 +1,85 @@
+.filter{
+    position: absolute;
+    width: 228px;
+    height: 275px;
+    left: 41px;
+    top: 43px;
+}
+
+.title{
+    position: absolute;
+    top: 24px;
+    left: 30px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    color: #A5A5A5;
+}
+
+.line{
+    position: absolute;
+    width: 158px;
+    left: 30px;
+    top: 59px;
+    border-bottom: 2px solid #CBCBCB;
+}
+
+.container {
+    height: 137.5px;
+    width: auto;
+    position: relative;
+    left: 25px;
+    top: 95px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.each{
+    height : 37.5px;
+    width: 168.45px;
+}
+
+.each div {
+    height: 22px;
+    width: 144px;
+    margin: 8px 0 0 13px;
+    display: flex;
+    justify-content: space-between;
+}
+/* 
+.each div p{
+    margin: 0;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20.29px;
+    color:#FFFFFF;;
+}
+
+.each div select{
+    width: 12.19px;
+    height: 12.19px;
+    margin-top: 5px;
+    border: 0;
+    outline: none;
+} */
+
+.each div select {
+    width : 100%;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20.29px;
+    background-color: transparent;
+    color:#FFFFFF;
+    border: 0;
+    outline: none;
+}
+
+.each div select option{
+    background-color: transparent;
+    color: black;
+    font-family: SF Pro Display;;
+    position: fixed;
+}
