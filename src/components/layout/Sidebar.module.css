@@ -75,6 +75,7 @@
     color:#FFFFFF;
     border: 0;
     outline: none;
+    cursor: pointer;
 }
 
 .each div select option{
